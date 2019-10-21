@@ -1,0 +1,25 @@
+
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;        
+
+    img{
+        width: 80px;
+        margin-right: .5rem;
+    }
+    a{
+        &:hover {
+            width: 80px;
+        }
+    }
+    li {
+        list-style: none;        
+        &:hover {
+            z-index: 2;
+            transform: scale(1.5);
+        }
+    }
+}
+
